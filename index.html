@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ward System Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <!-------------------Navigation bar---->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Logo</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#complain">Complian</a>
+                  </li>
+                </ul>
+                <button class="btn btn-sm btn-primary">Login</button>
+              </div>
+            </div>
+          </nav>
+
+          <!-----------------------Carousel section------>
+
+          <div class="row mt-5 py-5">
+            <h2 class="header text-center py-5">Welcome to Our Page</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/ktm1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/lalitpur.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/bkt.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+          </div>
+
+          <!---------------Complain section-->
+          <div class="row mt-5 py-3" id="complain">
+            <div class="col-md-6">
+                <h2 class="header text-center">File a Complaint!!</h2>
+            </div>
+            <div class="col-md-6">
+                <textarea name="" id="" cols="70" rows="5"></textarea>
+            </div>
+          </div>
+
+          <!---------About section-->
+          <div class="row mt-5 py-5" id="about">
+            <div class="col-12">
+                <h2 class="header">About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam dolorum tempora quod blanditiis fugit magni ipsum velit et quam maiores. Quis minus sed natus sapiente consequuntur, itaque nihil. Expedita sunt optio distinctio tempora deserunt culpa deleniti ea voluptas ut eius. Sit, non consequuntur nemo, repudiandae eum molestias impedit perspiciatis porro aliquam fugiat fugit reiciendis molestiae voluptatem! Explicabo assumenda iusto voluptas quidem? Voluptatum fugit rerum blanditiis officia excepturi accusantium incidunt provident expedita eaque, et similique consequatur dignissimos doloribus corporis tenetur reprehenderit fuga iure repellendus vero nam ipsa. Ea quas voluptas, fugit quam earum recusandae, dignissimos adipisci repudiandae, magnam omnis soluta numquam!</p>
+            </div>
+          </div>
+
+          <!----------3section / card---->
+          <div class="row py-5">
+            <div class="col-md-4">
+                <div class="card ">
+                    <img src="img/ktm1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Kathmandu</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="kathmandu.html" class="btn btn-primary">Click Here</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card ">
+                    <img src="img/lalitpur.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lalitpur</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Click Here</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card ">
+                    <img src="img/bkt.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bhaktapur</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Click Here</a>
+                    </div>
+                  </div>
+            </div>
+          </div>
+
+          <!-------------footer-->
+          <footer>
+            <p class="text-center">Copyright &copy; reserved to our company</p>
+          </footer>
+    </div>
+</body>
+</html>

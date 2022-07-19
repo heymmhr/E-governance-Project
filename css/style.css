@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    color: #33527B;
+}
+.btn{
+    background-color: #33527B;
+}
+.btn:hover{
+    color: #33527B;
+    background-color: #fff;
+    font-weight: 600;
+}
+/*-----Navigation-----*/
+.navbar-brand{
+    font-size: 30px;
+    color: #33527B!important;
+}
+
+.nav-link{
+  font-size: 16px;
+  font-weight: 600;
+  margin:0px 20px 0px 20px;
+  color: black!important;
+  font-family: 'roboto condensed';
+}
+.nav-link:hover,
+.nav-link.active{
+    border-bottom: 2px solid #33527B;
+}
+/*--------Carousel-----*/
+.header{
+    font-size: 50px;
+    font-weight: 800px;
+}
+.carousel-item img{
+    border-radius: 50px;
+}
+/*-----3 section / card ------*/
+.card{
+    box-shadow: 1px 5px 10px 5px rgba(51, 82, 123,0.5);
+}
+
+/*-----------second page for kathmandu----*/
+/*---form section---*/
+form label{
+    margin: 15px;
+}
