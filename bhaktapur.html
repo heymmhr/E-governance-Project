@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kathmandu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container text-center">
+        <!-------------------Navigation bar---->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+           <div class="container-fluid">
+             <a class="navbar-brand" href="index.html">Logo</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                 <li class="nav-item">
+                   <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="#about">About</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link active" href="#complain">Complian</a>
+                 </li>
+               </ul>
+               <button class="btn btn-sm btn-primary">Login</button>
+             </div>
+           </div>
+         </nav>
+
+         <!-------Complain---->
+
+         <div class="row mt-5 py-5">
+            <div class="col-12">
+                <h2 class="header"> File a Complain!!</h2>
+                <form action="" class="mt-5">
+                    <label for="">Name: </label><input type="text" placeholder="Enter your fullname"><br>
+                    <label for="">Ward:</label><select name="" id="">
+                        <option value="ward">Select ward no:</option>
+                        <option value="ward1">Ward 1</option>
+                        <option value="ward1">Ward 2</option>
+                        <option value="ward1">Ward 3</option>
+                        <option value="ward1">Ward 4</option>
+                        <option value="ward1">Ward 6</option>
+                        <option value="ward1">Ward 7</option>
+                        <option value="ward1">Ward 8</option>
+                        <option value="ward1">Ward 9</option>
+                        <option value="ward1">Ward 10</option>
+                        <option value="ward1">Ward 11</option>
+                        <option value="ward1">Ward 12</option>
+                        <option value="ward1">Ward 13</option>
+                        <option value="ward1">Ward 14</option>
+                        <option value="ward1">Ward 15</option>
+                    </select><br>
+                    <label for="">Address:</label><input type="text" placeholder="Enter your address"><br>
+                    <label for="" class="mt-5">Issue:</label><textarea name="" id="" placeholder="Tell us your issues"></textarea><br>
+                    <label for="">Concerned authority:</label><select name="" id="">
+                        <option value="">NEA</option>
+                        <option value="">Nagarpalika</option>
+                        <option value="">Others</option>
+                    </select>
+                </form>
+
+                <button class="btn btn-md btn-primary mt-5">Submit</button>
+            </div>
+         </div>
+
+         <!-------------footer-->
+         <footer>
+            <p class="text-center">Copyright &copy; reserved to our company</p>
+          </footer>
+    </div>
+</body>
+</html>
